@@ -1,0 +1,129 @@
+@media (min-width: 768px) {
+	.header {
+		background-image: url('../img/header_hero_hq.jpg');
+
+		&__text {
+			font-size: 3rem;
+		}
+
+		&__title {
+			font-size: 12rem;
+		}
+	}
+
+	.main {
+		.home {
+			&__cards {
+				flex-wrap: wrap;
+				flex-direction: row;
+			}
+
+			&__card {
+				margin: 1rem;
+			}
+		}
+
+		.about-us {
+			&__card {
+				justify-content: space-between;
+				flex-direction: row;
+				margin-bottom: 8em;
+
+				&-img {
+					width: 50%;
+					&--right {
+						order: 1;
+					}
+				}
+
+				&-text {
+					width: 45%;
+
+					&-title {
+						position: absolute;
+						right: 0;
+						top: 0.5em;
+						left: 60%;
+						font-size: 4.5rem;
+
+						&--right {
+							left: 20%;
+						}
+					}
+
+					&-info {
+						&--right {
+							text-align: right;
+						}
+					}
+				}
+			}
+		}
+
+		.middle-point {
+			background-image: url('../img/middle_hero_hq.jpg');
+		}
+
+		.reviews {
+			&__cards {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-template-rows: repeat(2, 1fr);
+				gap: 1em;
+			}
+
+			&__card {
+				margin: 0;
+			}
+		}
+
+		.accolades {
+			&__cards {
+				justify-content: space-evenly;
+				flex-direction: row;
+			}
+
+			&__card {
+				margin: 0;
+			}
+		}
+
+		.faq-hero {
+			background-image: url('../img/faq/faq_hero_hq.jpg');
+		}
+
+		.offer {
+			&__card {
+				height: 30rem;
+
+				&:nth-of-type(even) {
+					display: flex;
+					justify-content: flex-end;
+				}
+
+				&-inner {
+					height: 100%;
+					width: 45%;
+				}
+			}
+		}
+
+		.contact-form {
+			&__box {
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+
+			&__container {
+				width: 48%;
+				display: flex;
+				flex-direction: column;
+
+				&--bottom {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

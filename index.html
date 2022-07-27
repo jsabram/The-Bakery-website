@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bakery 🍞</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Ibarra+Real+Nova:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/68f8461cb9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <button class="hamburger hamburger--spring" type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <nav class="nav nav--mobile">
+        <ul class="nav__list nav__list--mobile">
+            <li class="nav__list-item nav__list-item--mobile"><a href="index.html"
+                    class="nav__link nav__link--mobile">Home</a>
+            </li>
+            <li class="nav__list-item nav__list-item--mobile"><a href="offer.html"
+                    class="nav__link nav__link--mobile">Offer</a>
+            </li>
+            <li class="nav__list-item nav__list-item--mobile"><a href="faq.html"
+                    class="nav__link nav__link--mobile">FAQ</a>
+            </li>
+            <li class="nav__list-item nav__list-item--mobile"><a href="contact.html"
+                    class="nav__link nav__link--mobile">Contact</a></li>
+        </ul>
+    </nav>
+
+    <nav class="nav nav--desktop">
+        <ul class="nav__list nav__list--desktop"></ul>
+        <li class="nav__list-item nav__list-item--desktop"><a href="index.html"
+                class="nav__link nav__link--desktop nav__link--active">Home</a>
+        </li>
+        <li class="nav__list-item nav__list-item--desktop"><a href="offer.html"
+                class="nav__link nav__link--desktop">Offer</a>
+        </li>
+        <img src="img/logo.png" alt="Logo of our bakery that consists of a round loaf of bread and our name."
+            class="nav__logo">
+        <li class="nav__list-item nav__list-item--desktop"><a href="faq.html"
+                class="nav__link nav__link--desktop">FAQ</a></li>
+        <li class="nav__list-item nav__list-item--desktop"><a href="contact.html"
+                class="nav__link nav__link--desktop">Contact</a>
+        </li>
+    </nav>
+    <header class="header">
+        <div class="header__container fade-in-fwd">
+            <p class="header__text header__text--top">the</p>
+            <h1 class="header__title">- Bakery -</h1>
+            <p class="header__text">enrich every moment</p>
+        </div>
+        <a href="#home" class="header__arrow bounce-top"><img src="img/chevron-down.svg"
+                alt="Icon of an arrow pointing down"></a>
+        <div class="shadow"></div>
+    </header>
+
+    <main class="main">
+        <section id="home" class="section home">
+            <div class="wrapper">
+                <div class="home__cards">
+                    <div class="home__card" data-aos="flip-left" data-aos-offset="600" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000">
+                        <img src="img/home/home-1.jpg" alt="Photo of freshly baked croissants" class="home__card-img">
+                        <div class="home__card-text">
+                            <h2 class="home__card-text-letter">B</h2>
+                            <p class="home__card-text-info">Our breadstuff is baked every morning which ensures its
+                                highest quality and the best taste.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="home__card" data-aos="flip-left" data-aos-offset="600" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000" data-aos-delay="200">
+                        <img src="img/home/home-2.jpg" alt="Photo of a baker sprinkling flour on a loaf of bread"
+                            class="home__card-img">
+                        <div class="home__card-text">
+                            <h2 class="home__card-text-letter">A</h2>
+                            <p class="home__card-text-info">The reciepes we use have been in our family for decades,
+                                passed on from one generation to another.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="home__card" data-aos="flip-left" data-aos-offset="600" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000" data-aos-delay="400">
+                        <img src="img/home/home-3.jpg" alt="" class="home__card-img">
+                        <div class="home__card-text">
+                            <h2 class="home__card-text-letter">K</h2>
+                            <p class="home__card-text-info">Over the course of years, The Bakery has won multiple
+                                accolades as one of the world's most renowned bakeries.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="home__card" data-aos="flip-left" data-aos-offset="600" data-aos-easing="ease-in-out"
+                        data-aos-duration="1000" data-aos-delay="600">
+                        <img src="img/home/home-4.jpg" alt="Picture of a spoonful of flour" class="home__card-img">
+                        <div class="home__card-text">
+                            <h2 class="home__card-text-letter">E</h2>
+                            <p class="home__card-text-info">We only use ingredients from nearby farmers as we want to
+                                support local businesses.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section about-us">
+            <div class="wrapper">
+                <div class="about-us__cards">
+                    <div class="about-us__card" data-aos="fade-right" data-aos-offset="600">
+                        <img src="img/about-us/about-us-1.jpg" alt="Photo of a baker kneading bread dough"
+                            class="about-us__card-img">
+                        <h3 class="about-us__card-text-title">Fresh</h3>
+                        <div class="about-us__card-text">
+                            <p class="about-us__card-text-info">Our breadstuff is baked every morning using only fresh
+                                local
+                                ingredients of the highest quality.</p>
+                        </div>
+                    </div>
+                    <div class="about-us__card" data-aos="fade-left" data-aos-offset="600">
+                        <img src="img/about-us/about-us-2.jpg"
+                            alt="Photo of a baker holding a freshly baked loaf of bread"
+                            class="about-us__card-img about-us__card-img--right">
+                        <h3 class="about-us__card-text-title about-us__card-text-title--right">Soft</h3>
+                        <div class="about-us__card-text">
+                            <p class="about-us__card-text-info about-us__card-text-info--right">Always crunchy on the
+                                outside and delicate on the inside which grants an unique experience for your taste
+                                buds.</p>
+                        </div>
+                    </div>
+                    <div class="about-us__card" data-aos="fade-right" data-aos-offset="600">
+                        <img src="img/about-us/about-us-3.jpg" alt="Photo of loaves of bread sprinked with flour"
+                            class="about-us__card-img">
+                        <h3 class="about-us__card-text-title">Tasty</h3>
+                        <div class="about-us__card-text">
+                            <p class="about-us__card-text-info">On its own or with toppings - we guarantee that you have
+                                never tasted anything as delectable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section middle-point">
+            <div class="shadow"></div>
+        </section>
+        <section class="section reviews">
+            <div class="wrapper">
+                <div class="reviews__cards">
+                    <div class="reviews__card">
+                        <div class="reviews__card-container">
+                            <h4 class="reviews__card-icon"><img src="img/italic.svg" alt="Icon of an italic font"></h4>
+                            <img src="img/reviews/reviews-1.jpg" alt="Photo of a man wearing a suit"
+                                class="reviews__card-user">
+                        </div>
+                        <p class="reviews__card-text
+                        ">I can call myself a regular customer at The Bakery. Wish I knew their recipes!</p>
+                        <small class="reviews__card-name">John Doe</small>
+                    </div>
+                    <div class="reviews__card">
+                        <div class="reviews__card-container">
+                            <h4 class="reviews__card-icon"><img src="img/italic.svg" alt="Icon of an italic font"></h4>
+                            <img src="img/reviews/reviews-2.jpg" alt="Photo of a man wearing a suit"
+                                class="reviews__card-user">
+                        </div>
+                        <p class="reviews__card-text
+                        ">This bakery is your best option if you are looking for fresh and tasty bread.</p>
+                        <small class="reviews__card-name">Judith Doe</small>
+                    </div>
+                    <div class="reviews__card">
+                        <div class="reviews__card-container">
+                            <h4 class="reviews__card-icon"><img src="img/italic.svg" alt="Icon of an italic font"></h4>
+                            <img src="img/reviews/reviews-3.jpg" alt="Photo of a woman with blond hair and white coat"
+                                class="reviews__card-user">
+                        </div>
+                        <p class="reviews__card-text
+                        ">I fell in love with their bread and rolls. They just make my mornings perfect!</p>
+                        <small class="reviews__card-name">Jane Doe</small>
+                    </div>
+                    <div class="reviews__card">
+                        <div class="reviews__card-container">
+                            <h4 class="reviews__card-icon"><img src="img/italic.svg" alt="Icon of an italic font"></h4>
+                            <img src="img/reviews/reviews-4.jpg"
+                                alt="Photo of a man wearing a green polo T-shirt and glasses"
+                                class="reviews__card-user">
+                        </div>
+                        <p class="reviews__card-text
+                        ">I will never buy breadstuff anywhere else. Their products are the best.</p>
+                        <small class="reviews__card-name">Josh Doe</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section accolades">
+            <div class="wrapper">
+                <div class="accolades__cards">
+                    <div class="accolades__card" data-aos="zoom-in">
+                        <i class="fa-solid fa-building  accolades__card-icon"></i>
+                        <p class="accolades__card-number">6</p>
+                        <p class="accolades__card-text">Locals in Europe</p>
+                    </div>
+                    <div class="accolades__card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fa-solid fa-users accolades__card-icon"></i>
+                        <p class="accolades__card-number">19,000</p>
+                        <p class="accolades__card-text">Clients per year</p>
+                    </div>
+                    <div class="accolades__card" data-aos="zoom-in" data-aos-delay="400">
+                        <i class="fa-solid fa-trophy accolades__card-icon"></i>
+                        <p class="accolades__card-number">185</p>
+                        <p class="accolades__card-text">Awards received</p>
+                    </div>
+                    <div class="accolades__card" data-aos="zoom-in" data-aos-delay="600">
+                        <i class="fa-solid fa-bread-slice accolades__card-icon"></i>
+                        <p class="accolades__card-number">1 000 000+</p>
+                        <p class="accolades__card-text">Loaves of bread sold</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; <span class="current-year"></span> The Bakery</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
